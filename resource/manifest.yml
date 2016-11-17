@@ -1,0 +1,6 @@
+---
+applications:
+- name: sso-resource
+  path: target/sso-resource.jar
+  env:
+    SKIP_SSL_VALIDATION: "true"
